@@ -1,7 +1,6 @@
+{
 "scripts": {
-    "start": "node diagnostics.js",
-    "report": "report.cmd"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  }
+"start": "node diagnostics.js --label default",
+"report": "node diagnostics.js"
+}
+}
